@@ -1,0 +1,1 @@
+pora doder aprender typescript con preact, salus :)
