@@ -1,5 +1,5 @@
 import { render } from 'preact'
-import { App } from './app.tsx'
+import { ToDoApp } from './components/ToDoApp'
 import './index.css'
 
-render(<App />, document.getElementById('app')!)
+render(<ToDoApp />, document.getElementById('app')!)
