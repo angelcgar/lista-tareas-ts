@@ -22,14 +22,15 @@ export function ToDoApp() {
         <input
           type="text"
           value={nuevaTarea}
-          onChange={(e: string | any ) => {
-            return setNuevaTarea(e.target.value);
-          }}
+          onChange={(e: string | any) => setNuevaTarea(e.target.value)}
           placeholder="Nueva Tarea"
         />
         <button onClick={handleAddTask}>Agregar Tarea</button>
       </div>
-      <ListaTareas listaTareas={listaTareas} borrarTareas={handleBorrarTarea}></ListaTareas>
+      <ListaTareas
+        listaTareas={listaTareas}
+        borrarTareas={handleBorrarTarea}
+      ></ListaTareas>
     </div>
   );
 }
